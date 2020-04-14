@@ -1,3 +1,4 @@
+# comment from Ben
 # adapted from Engineer Man on YouTube
 
 import threading
@@ -20,6 +21,7 @@ def colored_dot(color):
 
 def lights(color, indexes):
     off = True
+    print("hello")
     while True:
         for idx in indexes:
             tree[idx] = colored_dot(color) if off else '●'
